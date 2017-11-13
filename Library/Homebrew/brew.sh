@@ -282,7 +282,7 @@ As Homebrew does not drop privileges on installation you would be giving all
 build scripts full access to your system.
 EOS
 }
-check-run-command-as-root
+# check-run-command-as-root
 
 if [[ "$HOMEBREW_PREFIX" = "/usr/local" &&
       "$HOMEBREW_PREFIX" != "$HOMEBREW_REPOSITORY" &&
